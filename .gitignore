@@ -1,0 +1,47 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# macOS and VS Code
+.DS_Store
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Raw market data
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Sensitive credentials
+.env
+.env.*
+*.key
+*credentials*
+*secrets*
+
+# Backtest temporary files
+*.log
+*.tmp
+.cache/
+
+# Generated model files
+*.pkl
+*.joblib
+
+# Keep Python source code, notebooks and PNG figures
+!*.py
+!*.ipynb
+!*.png
